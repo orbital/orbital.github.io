@@ -35,8 +35,12 @@ a {
   font-weight: 700px;
   font-style: normal;
   line-height: 2em;
+  padding-bottom: 5px;
 }
 
+.main-nav a.active {
+  border-bottom: solid 1px white;
+}
 
 
 .logo {
@@ -56,4 +60,9 @@ a {
   padding-left: 10px;
   position: relative;
   top: 4px;
+}
+
+.content {
+  max-width: 960px; margin: 50px; margin-top: 150px; margin-bottom: 150px;
+  line-height: 24px;
 }
