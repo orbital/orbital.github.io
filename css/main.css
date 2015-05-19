@@ -1,0 +1,59 @@
+
+body {
+  background-color: #1D1D1D;
+  font-family: "Helvectica Neue", Helvetica;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 24px;
+}
+
+.main-nav {
+  font-size: 13px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.main-nav li {
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+  text-align: right;
+}
+
+.main-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 700px;
+  font-style: normal;
+  line-height: 2em;
+}
+
+
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.logo img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.logo span {
+  height: 100%;
+  font-size: 24px;
+  padding-left: 10px;
+  position: relative;
+  top: 4px;
+}
